@@ -1,3 +1,41 @@
+/* Et-icon*/
+
+@font-face {
+    font-family: et-line;
+    src: url(../fonts/et-line.eot);
+    src: url(../fonts/et-line.eot?#iefix) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.et-icon-browser,
+.et-icon-edit,
+.et-icon-presentation{
+    font-family: et-line;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block
+}
+
+.et-icon-presentation:before {
+    content: "\e00e"
+}
+
+.et-icon-edit:before {
+    content: "\e01c"
+}
+
+.et-icon-browser:before {
+    content: "\e00c"
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +44,19 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.banniere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-image: url(img/agence-la-panthere.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 a,
 button {
@@ -145,6 +196,7 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 90%;
+    height: auto;
 }
 
 .portfolio-row {
@@ -269,16 +321,6 @@ header{
     padding: 20px 50px;
 }
 
-.banniere{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-    background-image: url(img/agence-la-panthere.webp);
-    background-size: cover;
-    background-position: center;
-}
 
 .services{
     text-align: center;
@@ -344,40 +386,5 @@ footer{
     font-size: 30px
 }
 
-/* Et-icon*/
 
-@font-face {
-    font-family: et-line;
-    src: url(../fonts/et-line.eot);
-    src: url(../fonts/et-line.eot?#iefix) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-.et-icon-browser,
-.et-icon-edit,
-.et-icon-presentation{
-    font-family: et-line;
-    speak: none;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: inline-block
-}
-
-.et-icon-presentation:before {
-    content: "\e00e"
-}
-
-.et-icon-edit:before {
-    content: "\e01c"
-}
-
-.et-icon-browser:before {
-    content: "\e00c"
-}
 
