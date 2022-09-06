@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     <title>Agence La Panthère</title>
-	<link rel="preload" href="img/agence-la-panthere.webp" as="image">
+	<link rel="preload" fetchpriority="high" href="img/agence-la-panthere.webp" as="image" type="image/webp">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://kit.fontawesome.com/46ea829988.js" crossorigin="anonymous"></script>
     
@@ -18,13 +18,13 @@
 <body>
 <!-- header (ex bloc-0) -->
 	<header>
-		<a href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo" height="40" /></a>
+		<a href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="web design logo" height="40" width="200" /></a>
 	</header>
 <!-- header END -->
 
 <!-- banniere (ex bloc-1-presentation) -->
 	<section class="banniere">
-		<img src="img/logo.webp" class="logo" alt="Agence La Panthère, agence web paris, création logo paris" />
+		<img src="img/logo.webp" class="logo" alt="Agence La Panthère" />
 		<h1>
 			Agence La Panthère
 		</h1>
@@ -90,7 +90,7 @@
 <!-- bloc-3-what-i-do -->
 	<section class="presentation">
 		<div class="container">
-			<div class=" tight-width-whitespace black-background">
+			<div class=" presentation-background">
 				<div>
 					<h2 class=" white">
 						Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
@@ -112,7 +112,7 @@
 		</h2>
 		<div class="portfolio_container">
 			<div>
-				<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" width="640" height="360" alt="Refonte site web journal" class="portfolio-thumb" /></a>
 				<h3>
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -121,7 +121,7 @@
 				</p>
 			</div>
 			<div>
-				<a href="#" data-lightbox="img/2.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
+				<a href="#" data-lightbox="img/2.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.webp" width="640" height="360" class="portfolio-thumb" alt="Création d'un site web pour photographes" /></a>
 				<h3>
 					Création d'un site web pour photographes
 				</h3>
@@ -132,7 +132,7 @@
 		</div>
 		<div class="portfolio_container">
 			<div>
-				<a href="#" data-lightbox="img/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
+				<a href="#" data-lightbox="img/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.webp" width="640" height="360" class="portfolio-thumb" alt="Création d'un site web pour voyageur"/></a>
 				<h3>
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -141,7 +141,7 @@
 				</p>
 			</div>
 			<div>
-				<a href="#" data-lightbox="img/4.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
+				<a href="#" data-lightbox="img/4.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.webp" width="640" height="360" class="portfolio-thumb" alt="Création d'un site web pour agence de mariage" /></a>
 				<h3>
 					Conception d'un site pour une agence de mariage
 				</h3>
@@ -217,13 +217,13 @@
 		</p>
 
 		<div>
-			<a class="social" href="index.html"><i class="fa fa-twitter icon-footer"></i></a>
+			<a class="social" alt="twitter" href="index.html"><i class="fa fa-twitter icon-footer"></i></a>
 
-			<a class="social" href="index.html"><i class="fa fa-facebook icon-footer"></i></a>
+			<a class="social" alt="facebook" href="index.html"><i class="fa fa-facebook icon-footer"></i></a>
 
-			<a class="social" href="index.html"><i class="fa fa-dribbble icon-footer"></i></a>
+			<a class="social" alt="dribble" href="index.html"><i class="fa fa-dribbble icon-footer"></i></a>
 
-			<a class="social" href="index.html"><i class="fa fa-instagram icon-footer"></i></a>
+			<a class="social" alt="instagram" href="index.html"><i class="fa fa-instagram icon-footer"></i></a>
 		</div>
 
 	</footer>
