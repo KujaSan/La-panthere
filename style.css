@@ -366,7 +366,9 @@ label{
         padding-left: 20px!important;
         padding-right: 20px!important;
     }
-
+    .banniere{
+        background-image: url(img/agence-la-panthere-mobile.webp);
+    }
     .container{
         padding: 40px 0;
     }
