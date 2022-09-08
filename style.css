@@ -51,7 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 100px 0px;
-    background-image: url(img/agence-la-panthere.webp);
+    background-image: url(img/agence-la-panthere-mobile.webp);
     background-size: cover;
     background-position: center;
 }
@@ -95,15 +95,13 @@ a:hover {
     background: none;
 }
 
-h1,
-h2,
-h3,
-p,
-a {
+h1,h2,h3,p,a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757;
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 p {
     font-size: 16px;
@@ -134,7 +132,7 @@ h3 {
 }
 
 .container {
-    padding: 100px 0px;
+    padding: 40px 0px;
 }
 
 .icons {
@@ -247,6 +245,10 @@ footer>div{
     padding: 10px;
 }
 /* formulaire */
+#form_1 {
+    padding: 5px;
+}
+
 .form-group{
     width: 100%;
     display: flex;
@@ -274,6 +276,10 @@ label{
     height: 400px;
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #gmap_canvas{
@@ -292,6 +298,9 @@ label{
 }
 
 @media (min-width: 768px){
+    .banniere{
+        background-image: url(img/agence-la-panthere.webp);
+    }
     /* services */
     .locker_actions{
         display: flex;
@@ -308,6 +317,9 @@ label{
         text-align: center;
     }
     /*portfolio*/
+    .container{
+        padding: 100px 0;
+    }
     .portfolio_container{
         display: flex;
         flex-direction: row;
@@ -327,6 +339,7 @@ label{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .form-group{
         width: 80%;
@@ -339,38 +352,14 @@ label{
         width: 50%;
     }
     /*footer*/
-    .social{width: 75px;
+    .social{
+        width: 75px;
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .portfolio_container>div {
         width: 30%;
-    }
-}
-
-@media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-    h1,
-    h2,
-    h3,
-    p{
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-    }
-    .banniere{
-        background-image: url(img/agence-la-panthere-mobile.webp);
-    }
-    .container{
-        padding: 40px 0;
-    }
-    form {
-        padding: 5px;
     }
 }
 
