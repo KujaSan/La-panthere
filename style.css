@@ -471,6 +471,8 @@ button {
 }
 
 .icon-md {
+    margin: 0 10px;
+    color: white!important;
     font-size: 30px!important;
 }
 
@@ -517,6 +519,7 @@ button {
 }
 
 .scrollToTop span {
+    color: white;
     margin-top: 6px;
 }
 
