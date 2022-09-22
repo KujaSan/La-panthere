@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -455,10 +454,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px!important;
 }
@@ -472,7 +467,6 @@ button {
 
 .icon-md {
     margin: 0 10px;
-    color: white!important;
     font-size: 30px!important;
 }
 
@@ -703,6 +697,7 @@ h1 {
     justify-content: center;
     max-width: 400px;
     margin: auto auto auto auto!important;
+    text-decoration: none!important;
 }
 
 h2 {
@@ -741,6 +736,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto auto 24px auto;
 }
 
 .portfolio-row {
